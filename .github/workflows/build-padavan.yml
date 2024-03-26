@@ -127,5 +127,4 @@ jobs:
       with:
         name: Padavan-packages
         path: /opt/images
-jobs:
-  runs-on: self-hosted
+
