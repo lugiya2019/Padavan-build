@@ -18,7 +18,7 @@ jobs:
   build:
     runs-on: ubuntu-18.04
     if: github.event.repository.owner.id == github.event.sender.id
-
+  runs-on: self-hosted
     steps:
     - name: Checkout
       uses: actions/checkout@master
